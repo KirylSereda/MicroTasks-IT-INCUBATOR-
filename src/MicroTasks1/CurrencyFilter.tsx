@@ -1,12 +1,11 @@
-import React from "react";
-import {FilterType} from "./ContenerCurrencyFilter";
+import { FilterType } from "./ContenerCurrencyFilter";
 
 type CurrencyFilter = {
     currentMoney: Array<objFromMoneyType>
-    onClickFilterHandler: (nameButton:FilterType) => void
+    onClickFilterHandler: (nameButton: FilterType) => void
 }
 
-type  objFromMoneyType = {
+type objFromMoneyType = {
     banknote: string
     value: number
     number: string
