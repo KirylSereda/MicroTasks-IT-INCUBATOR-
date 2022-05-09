@@ -4,7 +4,6 @@ type ButtonType = {
 }
 
 export const Button2Task = (props: ButtonType) => {
-
     const onClickHandler = () => {
         props.callBack()
     }

@@ -1,6 +1,5 @@
-
 import './App.css';
-import { HW2 } from './MicroTasks2/HW2';
+import HW3 from './MicroTasks3/HW3';
 
 
 function App() {
@@ -8,7 +7,8 @@ function App() {
     return (
         <div >
             {/* <HW1 /> */}
-            <HW2 />
+            {/* <HW2 /> */}
+            <HW3 />
         </div>
     );
 }
